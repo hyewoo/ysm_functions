@@ -27,7 +27,7 @@ tass_average_SI <- function(sitetreedata,
                             agetyp_tage,
                             agetyp_bage){
 
-  library(SIndexR)
+  library(SIndexR154)
   grd_si3 <- sitetreedata %>%
     mutate(
       si_sp = 0,    
